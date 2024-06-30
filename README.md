@@ -99,6 +99,9 @@ Description: Displays a list of profiles with detailed information.
 
 npm start
 
+# The deployed link.
+
+https://edurekadashboard.netlify.app/
 This will launch the application in development mode. Open http://localhost:3000 to view it in the browser.
 
 --------------------------------------------------Thankyou----------------------------------------------------------
