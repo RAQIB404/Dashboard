@@ -1,0 +1,146 @@
+.avatarCircleIcon {
+  width: 79px;
+  height: 79px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 2;
+}
+.candidateAvatar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.aasheenKhan,
+.technicalLead {
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  min-width: 109px;
+  z-index: 2;
+}
+.technicalLead {
+  font-size: var(--font-size-xs);
+  line-height: 24px;
+  min-width: 86px;
+  z-index: 3;
+  margin-top: -1px;
+}
+.candidateName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconFeatherMail {
+  width: 13.3px;
+  height: 10.6px;
+  position: relative;
+  z-index: 2;
+}
+.contactIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.gmailcom {
+  position: relative;
+  line-height: 24px;
+  z-index: 2;
+}
+.contactDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-7);
+  flex-shrink: 0;
+}
+.iconFeatherPhone {
+  width: 12.4px;
+  height: 12.5px;
+  position: relative;
+  z-index: 2;
+}
+.iconFeatherPhoneWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.div {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 66px;
+  z-index: 3;
+}
+.contactDetails1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-7);
+  flex-shrink: 0;
+  margin-top: -1px;
+}
+.viewResume {
+  position: relative;
+  text-decoration: underline;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 78px;
+  flex-shrink: 0;
+  z-index: 2;
+  margin-top: -1px;
+}
+.candidateContact,
+.candidateDetails {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.candidateContact {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  font-size: var(--font-size-xs);
+}
+.candidateDetails {
+  flex: 1;
+  gap: var(--gap-4xs);
+}
+.candidateDetails,
+.candidateHeader,
+.candidateInfo {
+  display: flex;
+  align-items: flex-start;
+}
+.candidateHeader {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.candidateInfo {
+  width: 252px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  min-width: 252px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 975px) {
+  .candidateInfo {
+    flex: 1;
+  }
+}

@@ -1,0 +1,660 @@
+.candidateContentChild {
+  height: 160px;
+  width: 1018px;
+  position: relative;
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.path26716Icon {
+  height: 131.5px;
+  width: 1px;
+  position: relative;
+  z-index: 2;
+}
+.appliedForLead,
+.expCtc25 {
+  position: relative;
+  line-height: 24px;
+}
+.appliedForLead {
+  flex-shrink: 0;
+  z-index: 2;
+}
+.expCtc25 {
+  flex: 1;
+  display: inline-block;
+  min-width: 99px;
+  z-index: 3;
+}
+.assessmentCircle {
+  width: 4px;
+  height: 4px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-darkslateblue-200);
+  z-index: 2;
+}
+.assessmentIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.assessment90 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 101px;
+  z-index: 3;
+}
+.experienceAssessment {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-5);
+}
+.matchPercentage {
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  min-width: 105px;
+  z-index: 3;
+}
+.experienceCTC {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  flex-shrink: 0;
+  margin-top: -0.5px;
+}
+.matchBarChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumseagreen-200);
+  z-index: 2;
+}
+.matchValue {
+  position: relative;
+  line-height: 36px;
+  display: inline-block;
+  min-width: 51px;
+  z-index: 3;
+}
+.matchBar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-mid);
+  position: relative;
+}
+.viewDe {
+  text-decoration: underline;
+}
+.viewDetails {
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  min-width: 69px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.viewDetailsButton {
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslateblue-100);
+}
+.matchDetails,
+.positionTitle,
+.viewDetailsButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.matchDetails {
+  flex-direction: row;
+  gap: var(--gap-smi-2);
+  flex-shrink: 0;
+  margin-top: -0.5px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-mediumseagreen-100);
+}
+.positionTitle {
+  flex: 1;
+  flex-direction: column;
+  min-width: 144px;
+}
+.candidateSkills {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 99px;
+  z-index: 2;
+}
+.frameChild {
+  height: 34px;
+  width: 126px;
+  position: relative;
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+}
+.skillItemChild {
+  width: 19.6px;
+  height: 19.6px;
+  position: relative;
+  z-index: 1;
+}
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-4) 0 0;
+}
+.javascript {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 62px;
+  z-index: 1;
+}
+.skillName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.ratingValue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 36px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 10px;
+  z-index: 1;
+}
+.iconMaterialStar {
+  position: absolute;
+  top: 12.4px;
+  left: 9.1px;
+  width: 11.3px;
+  height: 10.7px;
+  z-index: 1;
+}
+.skillRating {
+  height: 36px;
+  width: 20.4px;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-mediumseagreen-100);
+}
+.candidateSkillsContent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+  gap: var(--gap-7xs-4);
+  z-index: 2;
+}
+.candidateSkillsContent {
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.candidateSkillsContentWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  font-size: var(--font-size-smi);
+}
+.appliedInfo,
+.appliedPosition,
+.candidateSkillsContentWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.appliedPosition {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-22xl);
+}
+.appliedInfo {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  min-width: 252px;
+  max-width: 100%;
+}
+.iconAwesomeStickyNote {
+  width: 11px;
+  height: 11px;
+  position: relative;
+  z-index: 2;
+}
+.addNotesLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-5) 0 0;
+}
+.viewNotes {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 72px;
+  z-index: 2;
+}
+.addNotesButton,
+.addNotesIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.addNotesIcon {
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.addNotesButton {
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs);
+}
+.otherSkillItemsChild {
+  height: 34px;
+  width: 107px;
+  position: relative;
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+}
+.angularJs {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 65px;
+  z-index: 3;
+}
+.otherSkillNames {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.otherRatingValues {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 36px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 9px;
+  z-index: 3;
+}
+.iconMaterialStar1 {
+  position: absolute;
+  top: 12.4px;
+  left: 8.3px;
+  width: 11.3px;
+  height: 10.7px;
+  z-index: 4;
+}
+.otherSkillRatings {
+  height: 36px;
+  width: 19.6px;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-mediumseagreen-100);
+}
+.otherSkillItems,
+.otherSkillItemsItem {
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+}
+.otherSkillItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+  gap: var(--gap-5xs-7);
+  z-index: 2;
+}
+.otherSkillItemsItem {
+  height: 34px;
+  width: 95px;
+  position: relative;
+  display: none;
+}
+.reactJs {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 55px;
+  z-index: 3;
+}
+.reactJsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 36px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 10px;
+  z-index: 3;
+}
+.iconMaterialStar2 {
+  position: absolute;
+  top: 12.4px;
+  left: 9px;
+  width: 11.3px;
+  height: 10.7px;
+  z-index: 4;
+}
+.parent {
+  height: 36px;
+  width: 20.3px;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgoldenrod);
+}
+.otherSkillItems1,
+.otherSkillPlaceholderChild {
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+}
+.otherSkillItems1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 var(--padding-5xs);
+  gap: var(--gap-8xs-5);
+  z-index: 2;
+}
+.otherSkillPlaceholderChild {
+  height: 34px;
+  width: 34px;
+  position: relative;
+  display: none;
+}
+.otherSkillInput {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 17px;
+  z-index: 3;
+}
+.otherSkillItemsParent,
+.otherSkillPlaceholder {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.otherSkillPlaceholder {
+  width: 34px;
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  padding: var(--padding-7xs) var(--padding-6xs) var(--padding-9xs);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.otherSkillItemsParent {
+  gap: var(--gap-5xs-5);
+  color: var(--color-darkslateblue-100);
+}
+.actionButtonsChild {
+  height: 36px;
+  width: 77px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  border: 0.5px solid var(--color-mediumblue-200);
+  box-sizing: border-box;
+  display: none;
+}
+.qualify {
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 44px;
+  z-index: 3;
+}
+.actionButtons,
+.actionButtonsItem {
+  border-radius: var(--br-9xs);
+  border: 0.5px solid var(--color-mediumblue-200);
+  box-sizing: border-box;
+}
+.actionButtons {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-mini);
+  min-width: 50px;
+  z-index: 2;
+}
+.actionButtonsItem {
+  height: 36px;
+  width: 77px;
+  position: relative;
+  display: none;
+}
+.reject {
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 40px;
+  z-index: 3;
+}
+.actionButtons1,
+.actionButtonsInner {
+  border-radius: var(--br-9xs);
+  border: 0.5px solid var(--color-mediumblue-200);
+  box-sizing: border-box;
+}
+.actionButtons1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-mid);
+  min-width: 50px;
+  z-index: 2;
+}
+.actionButtonsInner {
+  height: 36px;
+  width: 77px;
+  position: relative;
+  display: none;
+}
+.onHold {
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 53px;
+  z-index: 3;
+}
+.actionButtons2 {
+  border-radius: var(--br-9xs);
+  border: 0.5px solid var(--color-mediumblue-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-2xs) var(--padding-11xs)
+    var(--padding-xs);
+  z-index: 2;
+}
+.actionButtonsParent,
+.addNotesButtonParent {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.actionButtonsParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: center;
+}
+.addNotesButtonParent {
+  width: 255px;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 255px;
+  font-size: var(--font-size-smi);
+  color: var(--color-mediumblue-200);
+}
+.applicationDetails,
+.appliedDetails {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.appliedDetails {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-3xs);
+}
+.applicationDetails {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+  min-width: 424px;
+}
+.candidateApplication,
+.candidateCard,
+.candidateContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.candidateApplication {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 441px;
+  font-size: var(--font-size-xs);
+}
+.candidateCard,
+.candidateContent {
+  box-sizing: border-box;
+}
+.candidateContent {
+  flex: 1;
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  align-items: flex-end;
+  padding: var(--padding-smi) var(--padding-base) var(--padding-sm)
+    var(--padding-5xl);
+  gap: var(--gap-28xl-5);
+  z-index: 1;
+}
+.candidateCard {
+  width: 1018px;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-6xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 975px) {
+  .candidateContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .addNotesButtonParent {
+    flex: 1;
+  }
+  .appliedDetails {
+    flex-wrap: wrap;
+  }
+  .applicationDetails {
+    min-width: 100%;
+  }
+  .candidateApplication {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .candidateContent {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .matchValue {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+  .appliedPosition {
+    flex-wrap: wrap;
+    gap: var(--gap-xl);
+  }
+  .actionButtonsParent {
+    flex-wrap: wrap;
+  }
+}

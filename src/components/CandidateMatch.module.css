@@ -1,0 +1,129 @@
+.path26716Icon {
+  height: 131.5px;
+  width: 1px;
+  position: relative;
+  z-index: 2;
+}
+.appliedForLead,
+.expCtc25 {
+  position: relative;
+  line-height: 24px;
+  z-index: 2;
+}
+.expCtc25 {
+  display: inline-block;
+  min-width: 99px;
+  z-index: 3;
+}
+.appliedInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.matchPercentage {
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 105px;
+  z-index: 3;
+}
+.percentageBarChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumseagreen-200);
+  z-index: 2;
+}
+.matchNumber {
+  position: relative;
+  line-height: 36px;
+  display: inline-block;
+  min-width: 42px;
+  z-index: 3;
+}
+.percentageBar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-3xl);
+  position: relative;
+}
+.viewDe {
+  text-decoration: underline;
+}
+.viewDetails {
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  min-width: 69px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.matchView {
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslateblue-100);
+}
+.matchProgress,
+.matchValue,
+.matchView {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.matchProgress {
+  flex-direction: row;
+  gap: var(--gap-smi-2);
+  margin-top: -1px;
+  font-size: var(--font-size-xl);
+  color: var(--color-mediumseagreen-100);
+}
+.matchValue {
+  flex-direction: column;
+  text-align: center;
+}
+.appliedMatch {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.appliedMatch,
+.candidateMatch,
+.matchDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.matchDetails {
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.candidateMatch {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  min-width: 210.5px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 725px) {
+  .candidateMatch {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .matchNumber {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+}

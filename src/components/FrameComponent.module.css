@@ -1,0 +1,431 @@
+.candidateSkills {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 99px;
+  z-index: 2;
+}
+.frameChild {
+  height: 34px;
+  width: 126px;
+  position: relative;
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+}
+.skillItemChild {
+  width: 19.6px;
+  height: 19.6px;
+  position: relative;
+  z-index: 1;
+}
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-4) 0 0;
+}
+.javascript {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 62px;
+  z-index: 1;
+}
+.skillName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.ratingValue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 36px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 10px;
+  z-index: 1;
+}
+.iconMaterialStar {
+  position: absolute;
+  top: 12.4px;
+  left: 9.1px;
+  width: 11.3px;
+  height: 10.7px;
+  z-index: 1;
+}
+.skillRating {
+  height: 36px;
+  width: 20.4px;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-mediumseagreen-100);
+}
+.rectangleParent,
+.skillList {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+  gap: var(--gap-7xs-4);
+  z-index: 2;
+}
+.skillList {
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.iconAwesomeStickyNote {
+  width: 11px;
+  height: 11px;
+  position: relative;
+  z-index: 2;
+}
+.addSkillLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-5) 0 0;
+}
+.addNotes {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 66px;
+  z-index: 2;
+}
+.addSkillButton,
+.addSkillIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.addSkillIcon {
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.addSkillButton {
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs);
+}
+.otherSkillItemsChild {
+  height: 34px;
+  width: 107px;
+  position: relative;
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+}
+.angularJs {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 65px;
+  z-index: 3;
+}
+.otherSkillNames {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.otherRatingValues {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 36px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 9px;
+  z-index: 3;
+}
+.iconMaterialStar1 {
+  position: absolute;
+  top: 12.4px;
+  left: 8.3px;
+  width: 11.3px;
+  height: 10.7px;
+  z-index: 4;
+}
+.otherSkillRatings {
+  height: 36px;
+  width: 19.6px;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-mediumseagreen-100);
+}
+.otherSkillItems,
+.otherSkillItemsItem {
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+}
+.otherSkillItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+  gap: var(--gap-5xs-7);
+  z-index: 2;
+}
+.otherSkillItemsItem {
+  height: 34px;
+  width: 95px;
+  position: relative;
+  display: none;
+}
+.reactJs {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 55px;
+  z-index: 3;
+}
+.reactJsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 36px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 10px;
+  z-index: 3;
+}
+.iconMaterialStar2 {
+  position: absolute;
+  top: 12.4px;
+  left: 9px;
+  width: 11.3px;
+  height: 10.7px;
+  z-index: 4;
+}
+.parent {
+  height: 36px;
+  width: 20.3px;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgoldenrod);
+}
+.otherSkillItems1,
+.otherSkillPlaceholderChild {
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+}
+.otherSkillItems1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 var(--padding-5xs);
+  gap: var(--gap-8xs-5);
+  z-index: 2;
+}
+.otherSkillPlaceholderChild {
+  height: 34px;
+  width: 34px;
+  position: relative;
+  display: none;
+}
+.otherSkillInput {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 17px;
+  z-index: 3;
+}
+.otherSkillPlaceholder,
+.otherSkills {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.otherSkillPlaceholder {
+  width: 34px;
+  box-shadow: 0 3px 9px rgba(0, 16, 101, 0.06);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  padding: var(--padding-7xs) var(--padding-6xs) var(--padding-9xs);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.otherSkills {
+  align-self: stretch;
+  gap: var(--gap-5xs-5);
+  color: var(--color-darkslateblue-100);
+}
+.actionButtonsChild {
+  height: 36px;
+  width: 77px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  border: 0.5px solid var(--color-mediumblue-200);
+  box-sizing: border-box;
+  display: none;
+}
+.qualify {
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 44px;
+  z-index: 3;
+}
+.actionButtons,
+.actionButtonsItem {
+  border-radius: var(--br-9xs);
+  border: 0.5px solid var(--color-mediumblue-200);
+  box-sizing: border-box;
+}
+.actionButtons {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-mini);
+  min-width: 50px;
+  z-index: 2;
+}
+.actionButtonsItem {
+  height: 36px;
+  width: 77px;
+  position: relative;
+  display: none;
+}
+.reject {
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 40px;
+  z-index: 3;
+}
+.actionButtons1,
+.actionButtonsInner {
+  border-radius: var(--br-9xs);
+  border: 0.5px solid var(--color-mediumblue-200);
+  box-sizing: border-box;
+}
+.actionButtons1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-mid);
+  min-width: 50px;
+  z-index: 2;
+}
+.actionButtonsInner {
+  height: 36px;
+  width: 77px;
+  position: relative;
+  display: none;
+}
+.onHold {
+  position: relative;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 53px;
+  z-index: 3;
+}
+.actionButtons2 {
+  border-radius: var(--br-9xs);
+  border: 0.5px solid var(--color-mediumblue-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-2xs) var(--padding-11xs)
+    var(--padding-xs);
+  z-index: 2;
+}
+.addSkill,
+.candidateActions {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.candidateActions {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: center;
+}
+.addSkill {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 166px;
+  color: var(--color-mediumblue-200);
+}
+.skills,
+.skillsWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.skills {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.skillsWrapper {
+  width: 391px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  min-width: 391px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 975px) {
+  .skillsWrapper {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 725px) {
+  .skillsWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .candidateActions,
+  .skills {
+    flex-wrap: wrap;
+  }
+}
