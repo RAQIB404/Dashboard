@@ -1,6 +1,12 @@
 
   # assessmentedureka
 
+
+# The deployed link.
+
+https://edurekadashboard.netlify.app/
+
+
 # Introduction:
 
 This is a Candidate Management Application developed with React. It helps in managing and viewing candidate profiles, their match percentage for a job, and their skills.
@@ -99,9 +105,11 @@ Description: Displays a list of profiles with detailed information.
 
 npm start
 
+This will launch the application in development mode. Open http://localhost:3000 to view it in the browser.
+
 # The deployed link.
 
 https://edurekadashboard.netlify.app/
-This will launch the application in development mode. Open http://localhost:3000 to view it in the browser.
+
 
 --------------------------------------------------Thankyou----------------------------------------------------------
